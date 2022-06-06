@@ -1,3 +1,33 @@
-header, footer {
+@font-face {
+  font-family: "Pixel";
+  src: url("font/PressStart2P-Regular.ttf")
+}
+
+body {
+  background-color:rgb(218, 227, 255);
+
+}
+
+header {
   background: lightgray;
+}
+
+footer {
+  color: blue;
+}
+
+.articleTitle {
+  font-family: Pixel;
+  color:blueviolet
+}
+
+.articleDate {
+  font-family:Pixel;
+  color:darkred
+}
+
+.articleText {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  text-align: justify;
 }
